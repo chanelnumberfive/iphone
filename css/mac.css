@@ -1,0 +1,1017 @@
+@charset "utf-8";
+/* CSS Document */
+/*mac页面导航*/	
+.mac-nav {
+	  width:100%;
+	  padding:4.75em 2em 1.5em 2em;
+	  white-space:nowrap;
+	  font-size:0.875em;
+	  text-align:center;
+	  white-space:nowrap;
+	  line-height:2;
+	  overflow-x:auto;
+	  background-color:#f7f7f7;
+	}	
+.mac-nav a {
+	  color:#333;
+	  -webkit-transition:color 0.35s ease-in;
+	  transition:color 0.35s ease-in;
+	}	
+.mac-nav a:hover {
+	  color:#36C;
+	}	
+.mac-nav li {
+	  display:inline-block;
+	  padding-right:30px;
+	}
+.mac-nav li:last-child {
+	 padding-right:none;
+	}	
+.mac-nav figure {
+	  margin-left:auto;
+	  margin-right:auto;
+	}		
+.mn-icon-macbook {
+	  width:46px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/macbook_large.svg);
+	  background-size:46px 54px;
+	}
+.mn-icon-macbookair {
+	  width:52px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/macbookair_large.svg);
+	  background-size:52px 54px;
+	}
+.mn-icon-macbookpro {
+	  width:58px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/macbookpro_large.svg);
+	  background-size:58px 54px;
+	}
+.mn-icon-imac {
+	  width:48px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/imac_large.svg);
+	  background-size:48px 54px;
+	}
+.mn-icon-macpro {
+	  width:21px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/macpro_large.svg);
+	  background-size:21px 54px;
+	}
+.mn-icon-macmini {
+	  width:28px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/macmini_large.svg);
+	  background-size:28px 54px;
+	}
+.mn-icon-accessories {
+	  width:28px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/mac_acc_large.svg);
+	  background-size:28px 54px;
+	}
+.mn-icon-icon-osx {
+	  width:30px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/mac_osx_large.svg);
+	  background-size:30px 54px;
+	}
+.mn-icon-compare {
+	  width:70px;
+	  height:54px;
+	  background-repeat:no-repeat;
+	  background-image:url(../svg/mac_comp_large.svg);
+	  background-size:70px 54px;
+	}
+/*mac-body*/
+.mac-body {
+	  text-align:center;
+	  overflow:hidden;
+	}
+.mac-body section {
+	  position:relative;
+	}				
+.mac-body h2 {
+	  font-size:4.5em;
+	  padding-bottom:10px;
+    }	
+.mac-body p {
+	  font-size:2.625em;
+    }
+.mac-body p.paragraph {
+	  font-size:20px;
+	}	
+.mac-body a{
+	  font-size:20px;
+	  color:#08c;
+    }	
+.mac-body section:before,
+.mac-body section:after {
+      content:" ";
+	  display:table;
+	  height:0;	
+	}
+.mac-body section:after {
+	  clear:both;
+	}				
+figure {
+	  margin-left:auto;
+	  margin-right:auto;
+	  background-repeat:no-repeat;
+	  background-position:center top;
+	  background-size:cover;
+	}
+
+.mb-imac {
+	  position:relative;
+	  padding-top:12em;
+	  padding-bottom:12em;
+	}	
+.image-mb-imac {
+	  height:799px;
+	  width:987px;
+	  background-size:987px 799px;
+	  background-image:url(../images/mac/large/hero_large.jpg);
+	}
+.mb-imac-article {
+	  position:absolute;
+	  top:130px;
+	}
+.mb-access-imagebox {
+	height:314px;
+	}
+.image-mb-access {
+	position:absolute;
+	right:0;
+	height:314px;
+	width:1661px;
+	background-image:url(../images/mac/large/apple_accessories_large.jpg);
+	background-size:1661px 314px;
+	}
+.mb-macbook .container {
+	position:relative;
+	width:944px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.image-mb-macbook {
+	width:674px;
+	height:844px;
+	background-image:url(../images/mac/large/macbook_large.jpg);
+	background-size:674px 844px;
+	}
+.mb-macbook-article {
+	position:absolute;
+	right:0;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	}
+.mb-macbookpro {
+	padding-top:170px;
+	padding-bottom:90px;
+	}
+.mb-macbookpro .container,
+.mb-macbookair .container {
+	width:980px;
+	}
+.image-mb-macbookpro {
+	position:relative;
+	right:-180px;
+	width:979px;
+	height:523px;
+	background-image:url(../images/mac/small-2x/mbpr_small_2x.jpg);
+	background-size:979px 523px;
+	}
+.mb-macbookpro-article {
+	position:absolute;
+	left:0;
+	top:50%;
+	-webkit-transform:translateY(-70%);
+	transform:translateY(-70%);
+	}
+.image-mb-macbookair {
+	position:relative;
+	left:-180px;
+	width:927px;
+	height:474px;
+	background-image:url(../images/mac/large/mba_large.png);
+	background-size:927px 474px;
+	}
+.mb-macbookair-article {
+	position:absolute;
+	right:0;
+	top:50%;
+	-webkit-transform:translateY(-70%);
+	transform:translateY(-70%);
+	}
+.mb-macbookair {
+	padding-top:90px;
+	padding-bottom:90px;
+	background-color:#f9f9f9;
+	}
+.mb-compare {
+	padding-top:90px;
+	padding-bottom:90px;
+	}	
+.image-mb-compare {
+	width:923px;
+	height:435px;
+	background-image:url(../images/mac/large/compare_large.jpg);
+	background-size:923px 435px;
+	}
+.mb-compare-article {
+	padding-bottom:50px;
+	}
+.mb-frome-one-gift {
+	position:relative;
+	}	
+.image-mb-fog {
+	height:600px;
+	background-image:url(../images/mac/large/gift_banner_large.jpg);
+	background-size:2198px 780px;
+	background-position:center -174px;
+	}
+.mb-fog-article {
+	position:absolute;
+	top:50px;
+	}
+.mb-fog-article p {
+	max-width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.mb-shopping-store {
+	padding-top:90px;
+	padding-bottom:90px;
+	line-height:0.9;
+	}
+.mb-ss-box {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.mb-ss-shopping,
+.mb-ss-store {
+	display:inline-block;
+	width:480px;
+	}
+.mb-ss-store-image,
+.mb-ss-shopping-image {
+	height:42px;
+	background-position:center center;
+	}
+.mb-ss-store-image {
+	background-image:url(../images/mac/large/icon_pickup_large.png);
+	background-size:37px 41px;
+	}
+.mb-ss-shopping-image {
+	background-image:url(../images/mac/large/icon_shipping_large.png);
+	background-size:36px 40px;
+	}
+.image-mb-afm {
+	height:597px;
+	background-image:url(../images/mac/large/accessories_large.jpg);
+	background-size:1440px 597px;
+	}
+.mb-afm-article {
+	position:absolute;
+	width:100%;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	}
+.mb-osx-icloud {
+	background-color:#fafafa;
+	padding-top:90px;
+	padding-bottom:90px;
+	}
+.mb-osx-icloud p {
+	font-size:20px;
+	text-align:justify;
+	}
+.mb-osx-icloud h2 {
+	position:relative;
+	font-size:42px;
+	text-align:left;
+	}
+.image-mb-osx,
+.image-mb-icloud {
+	position:absolute;
+	top:-4px;
+	left:-64px;
+	background-position:center center;
+	}
+.image-mb-osx {
+	height:52px;
+	width:52px;
+	background-image:url(../images/mac/large/hero_icon_large.png);
+	background-size:52px 52px;
+	}
+.image-mb-icloud {
+	height:48px;
+	width:48px;
+	background-image:url(../images/mac/large/icloud_icon_large.png);
+	background-size:48px 48px;
+	}					
+.image-mb-osx-icloud {
+	height:315px;
+	width:765px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/mac/large/partnership_large.png);
+	}
+.mb-osx,
+.mb-icloud {
+	display:inline-block;
+	width:330px;
+	vertical-align:top;
+	}
+.mb-osx {
+	width:480px;
+	padding-right:150px;
+	}
+.mb-osxi-box {
+	margin-top:40px;
+	}																																	
+.mb-built-in-app {
+	padding-top:90px;
+	padding-bottom:90px;
+	}
+.mb-bia-article {
+	width:720px;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+.mb-bia-tab li {
+	display:inline-block;
+	padding:40px 20px 0px 20px;
+	border-bottom:1px solid #dadada;
+	}
+.mb-bia-tab li.selected {
+	border-bottom-color:#333;
+	}		
+.mb-bia-tab figure {
+	width:74px;
+	height:74px;
+	margin-left:auto;
+	margin-right:auto;
+	background-size:54px 54px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+.mb-bia-tab-photos figure {
+	background-image:url(../images/mac/large/bia_photos_header_large.png);
+	}
+.mb-bia-tab-photos a {
+	display:block;
+	line-height:2;
+	font-size:16px;
+	}
+.mb-bia-content {
+	width:980px;
+	padding-top:90px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	}
+.mb-bia-content-photos {
+	width:670px;
+	height:540px;
+	margin-left:-100px;
+	background-image:url(../images/mac/large/bia_imovie_large.jpg);
+	background-size:670px 540px;
+	background-repeat:no-repeat;
+	}
+.mb-bia-content-article {
+	padding-left:140px;
+	}
+.mb-bia-content-icon-photos {
+	height:160px;
+	background-image:url(../images/mac/large/bia_photos_header_large.png);
+	background-repeat:no-repeat;
+	background-position:left 80%;
+	background-size:74px 74px;
+	}
+.mb-mac-for-business,
+.mb-mac-for-workshop {
+	margin-top:8px;
+	}	
+.mb-mac-for-education a,
+.mb-mac-for-business a,
+.mb-mac-for-workshop a {
+	color:#fff;
+	}
+.mb-mac-for-education a:hover,
+.mb-mac-for-business a:hover,
+.mb-mac-for-workshop a:hover {
+	text-decoration:underline;
+	}			
+.image-mb-mfe {
+	min-height:600px;
+	background-image:url(../images/mac/large/education_large.jpg);
+	background-repeat:no-repeat;
+	}
+.image-mb-mfb {
+	min-height:600px;
+	background-image:url(../images/mac/large/business_large.jpg);
+	background-repeat:no-repeat;
+	}
+.image-mb-mfw {
+	min-height:600px;
+	background-image:url(../images/mac/large/workshops_large.jpg);
+	background-repeat:no-repeat;
+	}		
+.mb-mfe-article,
+.mb-mfb-article,
+.mb-mfw-article {
+	position:absolute;
+	left:50%;
+	top:0;
+	margin-left:-490px;
+	width:980px;
+	padding-top:160px;
+	padding-left:80px;
+	text-align:left;
+	color:#fff;
+	}
+.mb-mfb-article {
+	padding-left:460px;
+	}
+.mb-mfw-article {
+	padding-left:0;
+	padding-top:180px;
+	text-align:center;
+	}														
+/*pc端超大屏幕（屏宽大于1440px）*/
+@media only screen and (min-width:1440px) {
+	.image-mb-afm {
+		background-size:cover;
+		}
+	}
+
+/*PC端 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 1.5dppx),
+	   only screen and (min-resolution: 144dpi){
+		   
+	    .image-mb-imac {
+		   background-image:url(../images/mac/large-2x/hero_large_2x.jpg);
+		   }
+		.image-mb-access {
+			background-image:url(../images/mac/large-2x/apple_accessories_large_2x.jpg);
+			}
+		.image-mb-macbook {
+			background-image:url(../images/mac/large-2x/macbook_large_2x.jpg);
+			}
+		.image-mb-macbookpro {
+			background-image:url(../images/mac/large-2x/mbpr_large_2x.jpg);
+			}
+		.image-mb-macbookair {
+			background-image:url(../images/mac/large/mba_large.png);
+			}
+		.image-mb-compare {
+			background-image:url(../images/mac/large-2x/compare_large_2x.jpg);
+			}
+		.image-mb-afm {
+			background-image:url(../images/mac/large-2x/accessories_large_2x.jpg);
+			}
+		.mb-ss-shopping-image {
+			background-image:url(../images/mac/large-2x/icon_pickup_large_2x.png);
+			}
+		.mb-ss-store-image {
+			background-image:url(../images/mac/large-2x/icon_shipping_large_2x.png);
+			}	
+		.image-mb-osx-icloud {
+			background-image:url(../images/mac/large/partnership_large.png);
+			}
+		.image-mb-icloud {
+			background-image:url(../images/mac/large-2x/icloud_icon_large_2x.png);
+			}
+		.image-mb-osx {
+			background-image:url(../images/mac/large-2x/hero_icon_large_2x.png);
+			}
+		.mb-bia-tab-photos figure,
+		.mb-bia-content-icon-photos {
+			background-image:url(../images/mac/large-2x/bia_photos_header_large_2x.png);
+			}
+		.mb-bia-content-photos {
+			background-image:url(../images/mac/large-2x/bia_imovie_large_2x.jpg);
+			}
+		.image-mb-mfe {
+			background-image:url(../images/mac/large-2x/education_large_2x.jpg);
+			}
+		.image-mb-mfb {
+			background-image:url(../images/mac/large-2x/business_large_2x.jpg);
+			}
+		.image-mb-mfw {
+			background-image:url(../images/mac/large-2x/workshops_large_2x.jpg);
+			}														   
+		   }
+
+/*m移动端 ipad 1x 2x*/
+@media only screen and (max-width:1068px) {
+	
+	   .mb-imac {
+		   padding-top:7em;
+		   padding-bottom:7em;
+		   }
+	   .mac-body h2 {
+		   font-size:64px;
+		   }
+	   .mac-body p {
+		   font-size:32px;
+		   }
+	   .mb-imac-article {
+		   position:absolute;
+		   top:60px;
+		   left:0;
+		   }   	      
+	   .image-mb-imac {
+		   width:723px;
+		   height:585px;
+		   background-size:723px 585px;
+		   background-image:url(../images/mac/middle/hero_medium.jpg);
+		   }
+		.mb-access-imagebox {
+			height:222px;
+			}   
+		.image-mb-access {
+			width:979px;
+			height:222px;
+			background-image:url(../images/mac/middle/apple_accessories_medium.jpg);
+			background-size:979px 222px;
+			}
+		.mb-macbook .container {
+			width:100%;
+			}
+		.mb-macbook-article {
+			position:absolute;
+			}		
+		.image-mb-macbook {
+			width:524px;
+			height:655px;
+			background-image:url(../images/mac/middle/macbook_medium.jpg);
+			background-size:524px 655px;
+			}
+		.mb-macbook .container {
+			width:100%;
+			}
+		.mb-macbookpro {
+			padding-top:90px;
+			}
+		.mb-macbookpro .container,
+		.mb-macbookair .container {
+			width:678px;
+			}	
+		.image-mb-macbookpro {
+			right:-100px;
+			width:712px;
+			height:380px;
+			background-image:url(../images/mac/middle/mbpr_medium.jpg);
+			background-size:712px 380px;
+			} 
+		.image-mb-macbookair {
+			left:-120px;
+			width:643px;
+			height:380px;
+			background-image:url(../images/mac/large/mba_large.png);
+			background-size:643px 380px;
+			}
+		.mb-macbookair-article {
+			right:-30px;
+			}
+		.mb-compare h2 {
+			font-size:42px;
+			}
+		.image-mb-compare {
+			width:611px;
+			height:288px;
+			background-image:url(../images/mac/middle/compare_medium.jpg);
+			background-position:center top;
+			background-size:611px 288px;
+			}
+		.image-mb-fog {
+			height:460px;
+			background-image:url(../images/mac/middle/gift_banner_medium.jpg);
+			background-size:1662px 630px;
+			}
+		.mb-ss-box {
+			width:auto;
+			}
+		.mb-ss-shopping,
+		.mb-ss-store {
+			display:block;
+			width:100%;
+			}
+		.mb-ss-shopping {
+			margin-bottom:60px;
+			}
+		.image-mb-afm {
+			height:452px;
+			background-image:url(../images/mac/middle/accessories_medium.jpg);
+			background-size:1068px 452px;
+			}
+		.image-mb-osx-icloud {
+			width:676px;
+			height:278px;
+			background-image:url(../images/mac/middle/partnership_medium.png);
+			background-size:676px 278px;
+			}
+		.mb-osx-icloud h2 {
+			font-size:40px;
+			}
+		.mb-osx-icloud p {
+			font-size:20px;
+			}
+		.mb-osx,
+		.mb-icloud {
+			width:250px;
+			}
+		.mb-osx {
+			padding:0;
+			margin-right:100px;
+			}
+		.image-mb-osx {
+			background-image:url(../images/mac/middle/hero_icon_medium.png);
+			background-size:49px 49px;
+			}
+		.image-mb-icloud {
+			background-image:url(../images/mac/middle/icloud_icon_medium.png);
+			background-size:48px 48px;
+			}
+		.mb-bia-content-photos {
+			width:475px;
+			height:383px;
+			margin-left:-72px;
+			background-image:url(../images/mac/middle/bia_imovie_medium.jpg);
+			background-size:475px 383px;
+			}
+		.mb-bia-content-article {
+			padding-left:0;
+			}
+		.mb-bia-content {
+			width:100%;
+			}
+		.mb-bia-content-icon-photos {
+			height:54px;
+			background-image:url(../images/mac/middle/bia_photos_header_medium.png);
+			background-size:54px 54px;
+			background-position:left center;
+			}
+		.image-mb-mfe {
+			min-height:452px;
+			background-image:url(../images/mac/middle/education_medium.jpg);
+			background-size:1068px 452px;
+			}
+		.image-mb-mfb {
+			min-height:452px;
+			background-image:url(../images/mac/middle/business_medium.jpg);
+			background-size:1068px 452px;
+			}
+		.image-mb-mfw {
+			min-height:452px;
+			background-image:url(../images/mac/middle/workshops_medium.jpg);
+			background-size:1068px 452px;
+			}		
+		.mb-mfe-article,
+		.mb-mfb-article,
+		.mb-mfw-article {
+			width:100%;
+			left:0;
+			margin-left:0;
+			padding-top:116px;
+			}
+		.mb-mfb-article {
+			padding-left:90px;
+			}																										   
+	}	
+	
+/*m移动端 ipad 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), 
+       only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	   only screen and (max-width: 1068px) and (min-resolution: 144dpi)	{
+		
+	   .image-mb-imac {
+		   background-image:url(../images/mac/middle-2x/hero_medium_2x.jpg);
+		   }
+	   .image-mb-access {
+		   background-image:url(../images/mac/middle-2x/apple_accessories_medium_2x.jpg);
+		   } 
+	   .image-mb-macbook {
+		   background-image:url(../images/mac/middle-2x/macbook_medium_2x.jpg);
+		   }
+	   .image-mb-macbookpro {
+		   background-image:url(../images/mac/middle-2x/mbpr_medium_2x.jpg);
+		   }
+		.image-mb-macbookair {
+			background-image:url(../images/mac/middle-2x/mba_medium_2x.png);
+			}
+		.image-mb-compare {
+			background-image:url(../images/mac/middle-2x/compare_medium_2x.jpg);
+			}
+		.image-mb-fog {
+			background-image:url(../images/mac/middle-2x/gift_banner_medium_2x.jpg);
+			}
+		.image-mb-afm {
+			background-image:url(../images/mac/middle-2x/accessories_medium_2x.jpg);
+			}
+		.image-mb-osx-icloud {
+			background-image:url(../images/mac/middle-2x/partnership_medium_2x.png);
+			}
+		.image-mb-osx {
+			background-image:url(../images/mac/middle-2x/hero_icon_medium_2x.png);
+			}
+		.image-mb-icloud {
+			background-image:url(../images/mac/middle-2x/icloud_icon_medium_2x.png);
+			}
+		.mb-bia-content-photos {
+			background-image:url(../images/mac/middle-2x/bia_photos_medium_2x.jpg);
+			}
+		.mb-bia-content-icon-photos {
+			background-image:url(../images/mac/middle-2x/bia_photos_header_medium_2x.png);
+			}
+		.image-mb-mfe {
+			background-image:url(../images/mac/middle-2x/education_medium_2x.jpg);
+			}
+		.image-mb-mfb {
+			background-image:url(../images/mac/middle-2x/business_medium_2x.jpg);
+			}
+		.image-mb-mfw {
+			background-image:url(../images/mac/middle-2x/workshops_medium_2x.jpg);
+			}											         	      	   
+		   }
+
+/*x移动端 2x 1x */		   
+@media only screen and (max-width:735px) {
+	   .mac-nav {
+		   overflow-x:scroll;
+		   }
+	   .mac-body h2 {
+		   font-size:36px;
+		   }
+	   .mac-body p {
+		   font-size:28px;
+		   }   
+	   .mb-imac {
+		   padding-top:3em;
+		   padding-bottom:3em;
+		   }
+	   .mb-imac-article,
+	   .mb-macbook-article,
+	   .mb-macbookpro-article,
+	   .mb-macbookair-article {
+		   position:static;
+		   }	   	   
+	   .image-mb-imac {
+		   width:439px;
+		   height:355px;
+		   background-size:439px 355px;
+		   background-image:url(../images/mac/small/hero_small.jpg);
+		   }
+		.image-mb-access {
+			width:580px;
+			height:110px;
+			background-image:url(../images/mac/small/apple_accessories_small.jpg);
+			background-size:580px 110px;
+			}
+		.mb-macbook .container {
+			width:auto;
+			}
+		.image-mb-macbook {
+			width:353px;
+			height:442px;
+			background-image:url(../images/mac/small/macbook_small.jpg);
+			background-size:353px 442px;
+			}
+		.mb-macbookpro {
+			padding-top:50px;
+			}
+		.mb-macbookpro .container,
+		.mb-macbookair .container {
+			width:auto;
+			}
+		.mb-macbookpro-article,
+		.mb-macbookair-article {
+			-webkit-transform:none;
+			transform:none;
+			}
+		.image-mb-macbookpro {
+			position:static;
+			height:172px;
+			width:322px;
+			margin-top:40px;
+			background-image:url(../images/mac/small/mbpr_small.jpg);
+			background-size:322px 172px;
+			}
+		.image-mb-macbookair {
+			position:static;
+			height:156px;
+			width:303px;
+			margin-top:40px;
+			background-image:url(../images/mac/small/mba_small.png);
+			background-size:303px 156px;
+			}
+		.mb-macbookpro,
+		.mb-macbookair,
+		.mb-compare,
+		.mb-shopping-store,
+		.mb-osx-icloud,
+		.mb-built-in-app {
+			padding-top:50px;
+			padding-bottom:50px;
+			}
+		.image-mb-compare {
+			width:auto;
+			height:150px;
+			background-image:url(../images/mac/small/compare_small.jpg);
+			background-size:315px 150px;
+			}
+		.mb-fog-article p {
+			padding-left:15px;
+			padding-right:15px;
+			}
+		.image-mb-fog {
+			width:auto;
+			height:462px;
+			background-image:url(../images/mac/small/gift_banner_small.jpg);
+			background-size:736px 462px;
+			background-position:center top;
+			}
+		.mb-frome-one-gift {
+			padding-top:260px;
+			background-color:#e9e9e9;
+			}
+		.image-mb-afm {
+			width:auto;
+			height:290px;
+			background-image:url(../images/mac/small/accessories_small.jpg);
+			background-size:736px 463px;
+			background-position:center center;
+			}
+		.image-mb-osx-icloud {
+			width:auto;
+			height:198px;
+			background-image:url(../images/mac/small/partnership_small.png);
+			background-size:481px 198px;
+			}
+		.mb-osx,
+		.mb-icloud {
+			width:auto;
+			margin:0;
+			padding:0 30px 0 70px;
+			}
+		.mb-icloud {
+			padding-top:40px;
+			}	
+		.mb-osx-icloud p {
+			font-size:20px;
+			}
+		.mb-osx-icloud a {
+			font-size:16px;
+			}
+		.mb-bia-article {
+			width:auto;
+			padding:0 20px;
+			}
+		.mb-bia-article p {
+			font-size:16px;
+			}
+		.mb-bia-article a {
+			font-size:16px;
+			}
+		.mb-bia-tab {
+			display:none;
+			}
+		.mb-bia-content-photos {
+			width:264px;
+			height:213px;
+			margin-left:auto;
+			background-image:url(../images/mac/small-2x/bia_imovie_small_2x.jpg);
+			background-size:264px 213px;
+			}
+		.mb-bia-content {
+			padding-top:20px;
+			}
+		.mb-bia-content-icon-photos {
+			background-position:center center;
+			}
+		.mb-bia-content-article {
+			padding-top:20px;
+			}	
+		.mb-bia-content-article h2 {
+			text-align:center;
+			}
+		.mb-bia-content-article p {
+			padding:0 20px;
+			}
+		.only-xm {
+			position:relative;
+			top:20px;
+			display:block;
+			text-align:center;
+			}
+		.nav-for-small li {
+			display:inline-block;
+			height:8px;
+			width:8px;
+			margin-right:20px;
+			border-radius:50%;
+			background-color:#b2b2b2;
+			}
+		.nav-for-small ul li:last-child {
+			margin-right:0;
+			}
+		.nav-for-small li.selected {
+			background-color:transparent;
+			border:1px solid #08c;
+			}
+		.image-mb-mfe {
+			min-height:292px;
+			background-image:url(../images/mac/small/education_small.jpg);
+			background-size:736px 292px;
+			}
+		.image-mb-mfb {
+			min-height:292px;
+			background-image:url(../images/mac/small/business_small.jpg);
+			background-size:736px 292px;
+			}
+		.image-mb-mfw {
+			min-height:292px;
+			background-image:url(../images/mac/small/workshops_small.jpg);
+			background-size:736px 292px;
+			}
+		.mb-mfe-article,
+		.mb-mfb-article,
+		.mb-mfw-article {
+			position:relative;
+			padding-left:20px;
+			padding-top:10px;
+			padding-bottom:20px;
+			color:#000;
+			text-align:left;
+			}
+		.mb-mfw-article {
+			padding-bottom:30px;
+			}	
+		.mb-mfe-article a,
+		.mb-mfb-article a,
+		.mb-mfw-article a {
+			color:#08c;
+			}																																						   
+	}
+			   	
+/*x移动端 2x retina屏*/	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px),
+       only screen and (max-width: 735px) and (min-resolution: 144dpi), 
+	   only screen and (-webkit-min-device-pixel-ratio: 144) and (max-width: 735px), 
+	   only screen and (max-width: 735px) and (min-resolution: 144dppx) {
+		
+	   .image-mb-imac {
+		   background-image:url(../images/mac/small-2x/hero_small_2x.jpg);
+		   }
+		.image-mb-access {
+			background-image:url(../images/mac/small-2x/apple_accessories_small_2x.jpg);
+			}
+		.image-mb-macbook {
+			background-image:url(../images/mac/small-2x/macbook_small_2x.jpg);
+			}
+		.image-mb-macbookpro {
+			background-image:url(../images/mac/small-2x/mbpr_small_2x.jpg);
+			}
+		.image-mb-macbookair {
+			background-image:url(../images/mac/small-2x/mba_small_2x.png);
+			}
+		.image-mb-compare {
+			background-image:url(../images/mac/small-2x/compare_small_2x.jpg);
+			}
+		.image-mb-fog {
+			background-image:url(../images/mac/small-2x/gift_banner_small_2x.jpg);
+			}
+		.image-mb-afm {
+			background-image:url(../images/mac/small-2x/accessories_small_2x.jpg);
+			}
+		.image-mb-osx-icloud {
+			background-image:url(../images/mac/small-2x/partnership_small_2x.png);
+			}
+		.image-mb-mfe {
+			background-image:url(../images/mac/small-2x/education_small_2x.jpg);
+			}
+		.image-mb-mfb {
+			background-image:url(../images/mac/small-2x/business_small_2x.jpg);
+			}
+		.image-mb-mfw {
+			background-image:url(../images/mac/small-2x/workshops_small_2x.jpg);
+			}										      
+		   }	   

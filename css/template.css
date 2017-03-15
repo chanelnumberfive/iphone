@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*pc端大屏1x 2x*/
+@media only screen and (min-width:1440px){
+	
+	}
+	
+/*PC端 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 1.5dppx),
+	   only screen and (min-resolution: 144dpi){
+		   
+		   }
+
+/*m移动端 ipad 1x 2x*/
+@media only screen and (max-width:1068px){
+	
+	}
+
+/*m移动端 ipad 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), 
+       only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	   only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+		   
+		   }
+
+/*x移动端 2x 1x */		   
+@media only screen and (max-width:735px) {
+	
+	}
+
+/*x移动端 2x retina屏*/	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px),
+       only screen and (max-width: 735px) and (min-resolution: 144dpi), 
+	   only screen and (-webkit-min-device-pixel-ratio: 144) and (max-width: 735px), 
+	   only screen and (max-width: 735px) and (min-resolution: 144dppx){
+		   
+		   
+		   }			   			   

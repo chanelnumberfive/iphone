@@ -1,0 +1,801 @@
+@charset "utf-8";
+/* CSS Document */
+figure {
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	}
+.watch-h1 {
+	font-size:62px;
+	width:70%;
+	}
+.watch-headline-xm {
+	font-size:16px;
+	font-weight:bold;
+	}
+.watch-headline-small {
+	font-size:42px;
+	}		
+.watch-headline-normal {
+	font-size:52px;
+	}	
+.watch-paragraph-normal {
+	margin-top:20px;
+	font-size:24px;
+	line-height:1.35417;
+	}
+.watch-paragraph-small {
+	margin-top:10px;
+	font-size:16px;
+	line-height:1.45;
+	}
+.watch-body {
+	position:relative;
+	overflow:hidden;
+	}		
+.watch-body a {
+	color:#08c;
+	}
+.watch-body section {
+	padding-top:80px;
+	padding-bottom:80px;
+	}	
+.watch-body a:hover {
+	text-decoration:underline;
+	}
+.watch-body .watch-wear-love {
+	padding:0;
+	}				
+.watch-wear-love {
+	height:100vh;
+	min-height:800px;
+	background-color:#f2f2f2;
+	overflow:hidden;
+	}
+.watch-wear-love a {
+	display:block;
+	}	
+.watch-wl-image {
+	top:50%;
+	-webkit-transform:translateY(-23%);
+	transform:translateY(-23%);
+	margin-left:-90px;
+	height:2121px;
+	width:879px;
+	background-image:url(../images/watch/large/hero_large.jpg);
+	background-size:879px 2121px;
+	}	
+.watch-wl-article {
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	left:90px;
+	padding-right:100px;
+	}	
+.watch-notifications .watch-paragraph-normal.first {
+	margin-top:0;
+	}
+.watch-notifications .watch-headline-xm {
+	margin-top:20px;
+	}	
+.watch-notifications>.text-center {
+	margin-top:50px;
+	}	
+.watch-nf-apple-pay {
+	float:none;
+	display:inline-block;
+	width:324px;
+	padding-left:40px;
+	padding-right:40px;
+	text-align:center;
+	}
+.watch-nf-ap-image {
+	height:358px;
+	width:201px
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/watch/large/notifications_applepay_large.png);
+	}
+.watch-individual .first {
+	margin-top:0;
+	}	
+.watch-indi-image-box {
+	width:1200px;
+	height:746px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	overflow:hidden;
+	}	
+.watch-indi-image-box:after {
+	content:" ";
+	display:inline-block;
+	height:0;
+	width:100%;
+	}	
+.watch-indi-image-box figure:nth-child(even) {
+	display:inline-block;
+	width:200px;
+	height:372px;
+	background-image:url(../images/watch/large/design_02_large.jpg);
+	}
+.watch-indi-image-box figure:nth-child(odd) {
+	display:inline-block;
+	width:200px;
+	height:372px;
+	background-image:url(../images/watch/large/design_08_large.jpg);
+	}
+.watch-bw-article {
+	position:absolute;
+	left:40px;
+	right:0;
+	bottom:30px;
+	}	
+.watch-bw-gt-image {
+	height:628px;
+	background-image:url(../images/watch/large/guided_tours_large.jpg);
+	background-size:1181px 628px; 
+	}
+.watch-bw-fads-image {
+	height:628px;
+	background-image:url(../images/watch/large/films_large.jpg);
+	background-size:1181px 628px; 
+	}
+.watch-bw-gallery-image {
+	height:628px;
+	background-image:url(../images/watch/large/watch_gallery_large.jpg);
+	background-size:206px 360px;
+	background-position:center center;
+	background-color:#e9e9e9; 
+	}
+.watch-bw-os2-image {
+	height:628px;
+	background-image:url(../images/watch/large/watch_os_large.jpg);
+	background-size:274px 272px;
+	background-position:center center;
+	background-color:#f2f2f2; 
+	}
+.watch-bw-gt-article,
+.watch-bw-fads-article {
+	color:#fff;
+	}	
+.watch-bw-gt-article a,
+.watch-bw-fads-article a {
+	color:#fff;
+	}
+.watch-bw-article .watch-paragraph-normal {
+	margin-top:0;
+	}
+.watch-body .watch-bleed-wide {
+	padding-top:0;
+	}
+.watch-herm-image {
+	height:486px;
+	background-image:url(../images/watch/large/hermes_large.jpg);
+	background-size:594px 486px;
+	}
+.watch-body .watch-switch-up {
+	padding-top:0;
+	background-color:#f3f2f1;
+	}	
+.watch-swup-image {
+	position:relative;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+	width:1382px;
+	height:713px;
+	background-image:url(../images/watch/large/switch_band_large.jpg);
+	background-size:1382px 713px;
+	background-position:100px -34px;
+	}
+.watch-swup-article {
+	margin-left:40px;
+	}			
+.watch-herm-article {
+	margin-top:50px;
+	margin-left:50px;
+	}
+.watch-herm-article .watch-paragraph-small,
+.watch-swup-article .watch-paragraph-normal,
+.watch-acce-article .watch-paragraph-normal,
+.watch-stor-article .watch-paragraph-normal {
+	margin-top:10px;
+	}	
+.watch-herm-arti-title {
+	width:262px;
+	height:32px;
+	white-space:nowrap;
+	text-indent:262px;
+	overflow:hidden;
+	background-image:url(../images/watch/large/collection_logo_large.jpg);
+	background-repeat:no-repeat;
+	}
+.iphone-frome-one-gift {
+	height:600px;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/mac/large/gift_banner_large.jpg);
+	background-size:2198px 780px;
+	background-position:center bottom;
+	}
+.iphone-fog-article {
+	position:relative;
+	top:-30px;
+	width:560px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.watch-body .watch-free-gift {
+	padding-top:140px;
+	padding-bottom:140px;
+	text-align:center;
+	}
+.watch-frgi-image {
+	height:37px;
+	background-image:url(../images/watch/large/gift_wrap_icon_large.png);
+	background-size:37px 37px;
+	}
+.watch-acce-image {
+	height:531px;
+	background-image:url(../images/watch/large/accessories_dock_large.jpg);
+	background-size:837px 531px;
+	}	
+.watch-acce-article {
+	position:relative;
+	top:20px;
+	margin-left:40px;
+	margin-top:40px;
+	}
+.watch-store {
+	position:relative;
+	height:810px;
+	color:#fff;
+	background-image:url(../images/watch/large/find_store_large.jpg);
+	background-size:1440px 810px;
+	}
+.watch-stor-article a {
+	color:#fff;
+	}	
+.watch-stor-article {
+	position:absolute;
+	width:320px;
+	left:40px;
+	bottom:50px;
+	}																							
+/*pc端大屏1x 2x*/
+@media only screen and (min-width:1440px){
+.watch-store {
+	background-size:cover;
+	}	
+	
+	}
+	
+/*PC端 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 1.5dppx),
+	   only screen and (min-resolution: 144dpi){
+		   
+		.watch-wl-image {
+		    background-image:url(../images/watch/large_2x/hero_large_2x.jpg);
+			}
+		.watch-nf-ap-image {
+			background-image:url(../images/watch/large_2x/notifications_applepay_large_2x.png);
+			}
+		.watch-indi-image-box figure:nth-child(even) {
+			background-image:url(../images/watch/large_2x/design_02_large_2x.jpg);
+			}
+		.watch-indi-image-box figure:nth-child(odd) {
+			background-image:url(../images/watch/large_2x/design_08_large_2x.jpg);
+			}
+		.watch-bw-gt-image {
+			background-image:url(../images/watch/large_2x/guided_tours_large_2x.jpg);
+			}
+		.watch-bw-fads-image {
+			background-image:url(../images/watch/large_2x/films_large_2x.jpg);
+			}
+		.watch-bw-gallery-image {
+			background-image:url(../images/watch/large_2x/watch_gallery_large_2x.jpg);
+			}
+		.watch-bw-os2-image {
+			background-image:url(../images/watch/large_2x/watch_os_large_2x.jpg);
+			}
+		.watch-herm-image {
+			background-image:url(../images/watch/large_2x/hermes_large_2x.jpg);
+			}
+		.watch-herm-arti-title {
+			background-image:url(../images/watch/large_2x/collection_logo_large_2x.jpg);
+			}
+		.iphone-from-one-gift {
+			background-image:url(../images/mac/large-2x/gift_banner_large_2x.jpg);
+			}
+		.watch-frgi-image {
+			background-image:url(../images/watch/large_2x/gift_wrap_icon_large_2x.png);
+			}
+		.watch-swup-image {
+			background-image:url(../images/watch/large_2x/switch_band_large_2x.jpg);
+			}
+		.watch-acce-image {
+			background-image:url(../images/watch/large_2x/accessories_dock_large_2x.jpg);
+			}
+		.watch-store {
+			background-image:url(../images/watch/large_2x/find_store_large_2x.jpg);
+			}														   
+		   }
+
+/*m移动端 ipad 1x 2x*/
+@media only screen and (max-width:1068px){
+	
+	.watch-paragraph-normal {
+		font-size:20px;
+		}
+	.watch-headline-normal {
+		font-size:42px;
+		}
+	.watch-headline-small {
+		font-size:32px;
+		}		
+	.iphone-frome-one-gift {
+		height:454px;
+		background-image:url(../images/mac/middle/gift_banner_medium.jpg);
+		background-size:1662px 630px;
+		background-position:center bottom;
+		}
+	.iphone-frome-one-gift .iphone-link-small.paragraph {
+		width:380px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	.watch-wl-image {
+		height:1522px;
+		width:631px;
+		margin-left:-60px;
+		-webkit-transform:translateY(-15%);
+		transform:translateY(-15%);
+		background-image:url(../images/watch/medium/hero_medium.jpg);
+		background-size:631px 1522px;
+		}
+	.watch-wl-article {
+		left:188px;
+		}	
+	.watch-wl-article .watch-paragraph-normal {
+		padding-right:115px;
+		}
+	.watch-notifications .watch-headline-normal {
+		padding-left:20px;
+		padding-right:110px;
+		}
+	.watch-notifications a {
+		display:block;
+		width:200px;
+		}
+	.watch-nf-apple-pay {
+		width:245px;
+		}
+	.watch-nf-ap-image {
+		width:145px;
+		height:261px;
+		background-image:url(../images/watch/medium/notifications_medium.jpg);
+		background-size:145px 261px;
+		}	
+	.watch-body .watch-individual {
+		padding-top:0;
+		}	
+	.watch-individual .watch-headline-normal {
+		padding-left:20px;
+		}
+	.watch-indi-image-box {
+		width:100%;
+		height:532px;
+		}	
+	.watch-indi-image-box figure {
+		margin:0 20px;
+		}
+	.watch-indi-image-box figure:nth-child(even) {
+		width:128px;
+		height:266px;
+		background-image:url(../images/watch/medium/design_02_medium.jpg);
+		background-size:128px 232px;
+		}
+	.watch-indi-image-box figure:nth-child(odd) {
+		width:128px;
+		height:266px;
+		background-image:url(../images/watch/medium/design_08_medium.jpg);
+		background-size:128px 232px;
+		}
+	.watch-bw-gt-image {
+		height:452px;
+		background-image:url(../images/watch/medium/guided_tours_medium.jpg);
+		background-size:850px 452px;
+		}
+	.watch-bw-fads-image {
+		height:452px;
+		background-image:url(../images/watch/medium/films_medium.jpg);
+		background-size:850px 452px;
+		}
+	.watch-bw-gallery-image {
+		height:452px;
+		background-image:url(../images/watch/medium/watch_gallery_medium.jpg);
+		background-size:148px 259px;
+		}
+	.watch-bw-os2-image {
+		height:452px;
+		background-image:url(../images/watch/medium/watch_os_medium.jpg);
+		background-size:197px 197px;
+		}
+	.watch-body .watch-hermes {
+		padding-top:0px;
+		}	
+	.watch-herm-image {
+		height:354px;
+		background-image:url(../images/watch/medium/hermes_medium.jpg);
+		background-size:428px 354px;
+		}
+	.watch-herm-arti-title {
+		height:23px;
+		background-image:url(../images/watch/medium/collection_logo_medium.jpg);
+		background-size:186px 23px;
+		}
+	.watch-herm-article .watch-paragraph-normal {
+		margin-top:8px;
+		}
+	.watch-body .watch-switch-up {
+		position:relative;
+		padding-bottom:20px;
+		}	
+	.watch-swup-image {
+		width:993px;
+		height:513px;
+		background-image:url(../images/watch/medium/switch_band_medium.jpg);
+		background-size:993px 513px;
+		background-position:260px -25px;
+		}
+	.watch-swup-article {
+		position:absolute;
+		width:100%;
+		left:0;
+		bottom:40px;
+		}
+	.watch-acce-image {
+		width:624px;
+		height:396px;
+		background-image:url(../images/watch/medium/accessories_dock_medium.jpg);
+		background-size:624px 396px;
+		}
+	.watch-store {
+		height:583px;
+		background-image:url(../images/watch/medium/find_store_medium.jpg);
+		background-size:1068px 583px;
+		}																					
+	
+	}
+
+/*m移动端 ipad 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), 
+       only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	   only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+		   
+		   .iphone-frome-one-gift {
+				background-image:url(../images/mac/middle-2x/gift_banner_medium_2x.jpg);
+				}
+			.watch-wl-image {
+				background-image:url(../images/watch/medium_2x/hero_medium_2x.jpg);
+				}
+			.watch-nf-ap-image {
+				background-image:url(../images/watch/medium_2x/notifications_medium_2x.jpg);
+				}
+			.watch-indi-image-box figure:nth-child(odd) {
+				background-image:url(../images/watch/medium_2x/design_08_medium_2x.jpg);
+				}
+			.watch-indi-image-box figure:nth-child(even) {
+				background-image:url(../images/watch/medium_2x/design_02_medium_2x.jpg);
+				}
+			.watch-bw-gt-image {
+				background-image:url(../images/watch/medium_2x/guided_tours_medium_2x.jpg);
+				}
+			.watch-bw-fads-image {
+				background-image:url(../images/watch/medium_2x/films_medium_2x.jpg);
+				}
+			.watch-bw-gallery-image {
+				background-image:url(../images/watch/medium_2x/watch_gallery_medium_2x.jpg);
+				}
+			.watch-bw-os2-image {
+				background-image:url(../images/watch/medium_2x/watch_os_medium_2x.jpg);
+				}
+			.watch-herm-image {
+				background-image:url(../images/watch/medium_2x/hermes_medium_2x.jpg);
+				}
+			.watch-herm-arti-title {
+				background-image:url(../images/watch/medium_2x/collection_logo_medium_2x.jpg);
+				}
+			.watch-swup-image {
+				background-image:url(../images/watch/medium_2x/switch_band_medium_2x.jpg);
+				}
+			.watch-acce-image {
+				background-image:url(../images/watch/medium_2x/accessories_dock_medium_2x.jpg);
+				}
+			.watch-store {
+				background-image:url(../images/watch/medium_2x/find_store_medium_2x.jpg);
+				}													
+		   
+		   }
+
+/*x移动端 2x 1x */		   
+@media only screen and (max-width:735px) {
+	
+	.watch-body section {
+		padding-top:50px;
+		padding-bottom:50px;
+		}
+	.watch-headline-normal {
+		font-size:32px;
+		}
+	.watch-headline-small {
+		font-size:28px;
+		}		
+	.only-xm {
+		display:block;
+		}
+	.watch-h1 {
+		font-size:36px;
+		width:162px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		padding-top:40px;
+		padding-bottom:40px;
+		}	
+	.watch-body .watch-wear-love {
+		height:auto;
+		min-height:0;
+		padding-top:50px;
+		padding-bottom:50px;
+		}
+	.watch-wear-love .height-100 {
+		height:auto;
+		}	
+	.watch-wl-image {
+		position:relative;
+		left:50%;
+		-webkit-transform:translateX(-50%);
+		transform:translateX(-50%);
+		margin-left:10px;
+		width:335px;
+		height:445px;
+		background-image:url(../images/watch/small/hero_small.jpg);
+		background-size:335px 445px;
+		}
+	.watch-wl-article {
+		position:static;
+		-webkit-transform:none;
+		transform:none;
+		padding-left:20px;
+		padding-right:20px;
+		}
+	.watch-wl-article h1 {
+		display:none;
+		}	
+	.watch-wl-article .watch-paragraph-normal {
+		width:auto;
+		padding-right:0;
+		text-align:justify;
+		word-break:break-all;
+		}			
+	.iphone-frome-one-gift {
+		height:766px;
+		background-color:#e9e9e9;
+		background-image:url(../images/mac/small/gift_banner_small.jpg);
+		background-size:736px 462px;
+		}	
+	.iphone-fog-article {
+		top:0px;
+		width:auto;
+		padding-left:20px;
+		padding-right:20px;
+		}
+	.iphone-frome-one-gift .pointer-right {
+		padding-right:0;
+		}	
+	.iphone-frome-one-gift .iphone-link-small.paragraph {
+		width:auto;
+		}
+	.iphone-frome-one-gift .iphone-link-small.small {
+		line-height:1.8;
+		}
+	.watch-notifications .watch-headline-normal {
+		padding-right:20px;
+		padding-bottom:30px;
+		}
+	.watch-notifications .watch-paragraph-normal {
+		padding-left:20px;
+		padding-right:20px;
+		}
+	.watch-nf-apple-pay-box {
+		width:300%;
+		height:auto;
+		}
+	.watch-nf-apple-pay {
+		display:none;
+		width:33.33333%;
+		}
+	.watch-nf-apple-pay.in {
+		display:block;
+		}	
+	.watch-nf-nav {
+		width:33.33%;
+		padding-top:40px;
+		clear:both;
+		text-align:center;	
+		}
+	.watch-nf-nav li {
+		display:inline-block;
+		width:8px;
+		height:8px;
+		margin-right:12px;
+		border-radius:50%;
+		background-color:#999;
+		}
+	.watch-nf-nav li:last-child {
+		margin-right:0;
+		}	
+	.watch-nf-nav li.selected {
+		background-color:#08c;
+		}
+	.watch-body .watch-individual {
+		padding-top:50px;
+		border-top:1px solid #dadada;
+		}	
+	.watch-individual>.container {
+		padding-left:20px;
+		padding-right:20px;
+		}
+	.watch-individual .watch-headline-normal {
+		padding-left:0;
+		padding-bottom:30px;
+		}
+	.watch-indi-image-box {
+		line-height:0;
+		height:320px;
+		}	
+	.watch-indi-image-box figure {
+		margin:0 10px;
+		}	
+	.watch-indi-image-box figure:nth-child(even) {
+		width:78px;
+		height:160px;
+		background-image:url(../images/watch/small/design_02_small.jpg);
+		background-size:78px 142px;
+		}
+	.watch-indi-image-box figure:nth-child(odd) {
+		width:78px;
+		height:160px;
+		background-image:url(../images/watch/small/design_08_small.jpg);
+		background-size:78px 142px;
+		}
+	.watch-bw-gt-image {
+		height:321px;
+		background-image:url(../images/watch/small/guided_tours_small.jpg);
+		background-size:736px 321px;
+		}
+	.watch-bw-fads-image {
+		height:321px;
+		background-image:url(../images/watch/small/films_small.jpg);
+		background-size:736px 321px;
+		}
+	.watch-bw-gallery-image {
+		height:321px;
+		background-image:url(../images/watch/small/watch_gallery_small.jpg);
+		background-size:90px 157px;
+		background-position:center 57px;
+		}
+	.watch-bw-os2-image {
+		height:321px;
+		background-image:url(../images/watch/small/watch_os_small.jpg);
+		background-size:142px 141px;
+		background-position:center 58px;
+		}
+	.watch-bw-article {
+		left:0;
+		right:0;
+		bottom:10px;
+		text-align:center;
+		}
+	.watch-herm-image {
+		height:155px;
+		background-image:url(../images/watch/small/hermes_small.jpg);
+		background-size:190px 155px;
+		}
+	.watch-herm-article {
+		margin-left:0;
+		text-align:center;
+		}
+	.watch-herm-arti-title {
+		width:180px;
+		margin-left:auto;
+		margin-right:auto;
+		background-image:url(../images/watch/small/collection_logo_small.jpg);
+		background-size:180px 22px;
+		}
+	.iphone-frome-gift p {
+		padding:0 20px;
+		}
+	.watch-swup-image {
+		width:383px;
+		height:199px;
+		background-image:url(../images/watch/small/switch_band_small.jpg);
+		background-size:383px 199px;
+		background-position:44px -14px;
+		}
+	.watch-swup-article {
+		position:static;
+		margin-left:0;
+		text-align:center;
+		}
+	.watch-acce-image {
+		width:auto;
+		height:139px;
+		background-image:url(../images/watch/small/accessories_dock_small.jpg);
+		background-size:219px 139px;
+		}
+	.watch-acce-article {
+		margin-top:10px;
+		margin-left:0;
+		text-align:center;
+		}
+	.watch-store {
+		height:323px;
+		background-image:url(../images/watch/small/find_store_small.jpg);
+		background-size:525px 323px;
+		}
+	.watch-stor-article {
+		width:100%;
+		left:0;
+		bottom:30px;
+		text-align:center;
+		}																							
+	}
+
+/*x移动端 2x retina屏*/	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px),
+       only screen and (max-width: 735px) and (min-resolution: 144dpi), 
+	   only screen and (-webkit-min-device-pixel-ratio: 144) and (max-width: 735px), 
+	   only screen and (max-width: 735px) and (min-resolution: 144dppx){
+		   
+		.iphone-frome-one-gift {
+			background-image:url(../images/mac/small-2x/gift_banner_small_2x.jpg);
+			}
+		.watch-wl-image {
+			background-image:url(../images/watch/small_2x/hero_small_2x.jpg);
+			}
+		.watch-indi-image-box figure:nth-child(even) {
+			background-image:url(../images/watch/small_2x/design_02_small_2x.jpg);
+			}
+		.watch-indi-image-box figure:nth-child(odd) {
+			background-image:url(../images/watch/small_2x/design_08_small_2x.jpg);
+			}			
+		.watch-bw-gt-image {
+			background-image:url(../images/watch/small_2x/guided_tours_small_2x.jpg);
+			}
+		.watch-bw-fads-image {
+			background-image:url(../images/watch/small_2x/films_small_2x.jpg);
+			}
+		.watch-bw-gallery-image {
+			background-image:url(../images/watch/small_2x/watch_gallery_small_2x.jpg);
+			}
+		.watch-bw-os2-image {
+			background-image:url(../images/watch/small_2x/watch_os_small_2x.jpg);
+			}
+		.watch-herm-image {
+			background-image:url(../images/watch/small_2x/hermes_small_2x.jpg);
+			}
+		.watch-swup-image {
+			background-image:url(../images/watch/small_2x/switch_band_small_2x.jpg);
+			}
+		.watch-acce-image {
+			background-image:url(../images/watch/small_2x/accessories_dock_small_2x.jpg);
+			}
+		.watch-store {
+			background-image:url(../images/watch/small_2x/find_store_small_2x.jpg);
+			}							   
+		   }			

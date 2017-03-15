@@ -1,0 +1,768 @@
+@charset "utf-8";
+/* CSS Document */
+figure {
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+/*ipad-nav*/
+.ipad-nav,
+.ipad-body {
+	text-align:center;
+	overflow:hidden;
+	}
+.ipad-nav a:hover,
+.ipad-body a:hover {
+	text-decoration:underline;
+	}	
+.ipad-nav {
+	background-color:#e9e9e9;
+	}
+.ipad-nav {
+	white-space:nowrap;
+	overflow:hidden;
+	}	
+.ipad-nav figure {
+	margin-bottom:6px;
+	}		
+.ipad-nav li {
+	display:inline-block;
+	padding:60px 22px 20px 22px;
+	}
+.ipad-nav a {
+	display:block;
+	font-size:12px;
+	-webkit-transition:color 0.35s ease-in;
+	transition:color 0.35s ease-in;
+	}
+.ipad-nav a:hover {
+	color:#999;
+	}
+.ipad-nav a.selected {
+	color:#999;
+	}				
+.in-ipad-pro {
+	width:34px;
+	height:54px;
+	background-image:url(../svg/ipadpro_large.svg);
+	background-size:34px 54px;
+	}
+.in-ipad-air2,
+.in-ipad-air {
+	width:28px;
+	height:54px;
+	background-image:url(../svg/ipadair_large.svg);
+	background-size:28px 54px;
+	}
+.in-ipad-mini4,
+.in-ipad-mini2 {
+	width:22px;
+	height:54px;
+	background-image:url(../svg/ipadmini_large.svg);
+	background-size:22px 54px;
+	}
+.in-ipad-access {
+	width:33px;
+	height:54px;
+	background-image:url(../svg/ipad_acc_large.svg);
+	background-size:33px 54px;
+	}
+.in-ipad-compare {
+	width:47px;
+	height:54px;
+	background-image:url(../svg/ipad_comp_large.svg);
+	background-size:47px 54px;
+	}					
+/*ipad-body*/
+.ipad-body {
+	font-size:18px;
+	position:relative;
+	}
+.ipad-body section {
+	position:relative;
+	}	
+.ipad-body h2 {
+	font-size:80px;
+	color:inherit;
+	line-height:inherit;
+	}
+.ipad-body h2.size52 {
+	font-size:52px;
+	}
+.ipad-body h3 {
+	font-size:42px;
+	color:inherit;
+	line-height:inherit;
+	}
+.ib-paragraph {
+	padding-top:10px;
+	}	
+.ipad-body a.size24 {
+	font-size:24px;
+	}
+.ipad-body a {
+	color:#08c;
+	font-size:18px;
+	line-height:inherit;
+	}
+.ib-ipad-pro {
+	background-color:#ddd;
+	padding-top:90px;
+	padding-bottom:90px;
+	}	
+.ib-ip-image {
+	height:797px;
+	margin-top:40px;
+	background-image:url(../images/ipad/large/ipadpro_large.png);
+	background-size:1612px 797px;
+	}
+.ib-link-box {
+	padding-top:20px;
+	}
+.ib-link-box span.last {
+	padding-right:0;
+	}
+.ib-fog-image {
+	height:600px;
+	background-image:url(../images/mac/large/gift_banner_large.jpg);
+	background-size:2198px 780px;
+	background-position:center bottom;
+	}
+.ib-fog-article {
+	position:absolute;
+	left:50%;
+	top:50px;
+	margin-left:-300px;
+	width:600px;
+	}
+.ib-apple-pencil {
+	padding-top:90px;
+	padding-bottom:90px;
+	background-color:#ddd;
+	}
+.ib-ap-article {
+	top:120px;
+	left:20px;
+	}	
+.ib-ap-image {
+	position:relative;
+	left:-460px;
+	height:470px;
+	width:1693px;
+	background-image:url(../images/ipad/large/pencil_large.png);
+	}
+.ib-smart-keyboard {
+	padding-top:90px;
+	padding-bottom:90px;
+	background-color:#ddd;
+	}
+.ib-sk-article {
+	top:176px;
+	}		
+.ib-sk-image {
+	width:1158px;
+	height:762px;
+	margin-left:-176px;
+	background-image:url(../images/ipad/large/keyboard_large.png);
+	background-size:1158px 762px;
+	}
+.ib-ipad-mini4 {
+	padding-top:90px;
+	}
+.ib-imini4-image {
+	height:1011px;
+	margin-top:50px;
+	background-image:url(../images/ipad/large/ipadmini_large.jpg);
+	background-size:1215px 1011px;
+	}
+.ib-ipad-air2 {
+	padding-top:90px;
+	padding-bottom:90px;
+	}
+.ib-iair2-article {
+	top:30px;
+	left:376px;
+	}	
+.ib-iair2-image {
+	width:1103px;
+	height:714px;
+	margin-left:-815px;
+	background-image:url(../images/ipad/large/ipadair_large.jpg);
+	background-size:1103px 714px;
+	}
+.ib-better-experience {
+	padding-top:90px;
+	background-color:#f2f2f2;
+	}
+.ib-be-article-image {
+	height:85px;
+	background-image:url(../images/ipad/large/ios_icon_large.png);
+	background-size:85px 85px;
+	}
+.ib-be-article .ib-paragraph {
+	width:680px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.ib-be-article .size52 {
+	margin-top:20px;
+	}	
+.ib-be-image {
+	height:539px;
+	margin-top:20px;
+	background-image:url(../images/ipad/large/ios_large.png);
+	background-size:870px 539px;
+	}
+.ib-ipad-models {
+	padding-top:90px;
+	padding-bottom:70px;
+	background-color:#f7f7f7;
+	}
+.ib-imodels-image {
+	height:263px;
+	margin-top:90px;
+	background-image:url(../images/ipad/large/compare_large.png);
+	background-size:1263px 263px;
+	}
+.ib-store-free {
+	padding-top:90px;
+	padding-bottom:90px;
+	}
+.ib-store-free h2 {
+	margin-top:16px;
+	font-size:28px;
+	}	
+.ib-store-image,
+.ib-free-image {
+	height:41px;
+	}
+.ib-store-image {
+	background-image:url(../images/mac/large/icon_pickup_large.png);
+	background-size:37px 41px;
+	}
+.ib-free-image {
+	background-image:url(../images/mac/large/icon_shipping_large.png);
+	background-size:36px 40px;
+	}
+.ib-ipad-access,
+.ib-ipad-education,
+.ib-ipad-business {
+	margin-bottom:8px;
+	color:#fff;
+	}
+.ib-ipad-workshop {
+	color:#fff;
+	}	
+.ib-ia-article,
+.ib-ie-article,
+.ib-ib-article,
+.ib-iws-article {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:580px;
+	margin-left:-290px;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	}
+.ib-ia-article a,
+.ib-ie-article a,
+.ib-ib-article a,
+.ib-iws-article a {
+	color:#fff;
+	}
+.ib-ia-image,
+.ib-ie-image,
+.ib-ib-image,
+.ib-iws-image {
+	height:600px;
+	background-size:1440px 600px;
+	}	
+.ib-ia-image {
+	background-image:url(../images/ipad/large/accessories_large.jpg);
+	}
+.ib-ie-image {
+	background-image:url(../images/ipad/large/education_large.jpg);
+	}
+.ib-ib-image {
+	background-image:url(../images/ipad/large/business_large.jpg);
+	}
+.ib-iws-image {
+	background-image:url(../images/ipad/large/workshop_large.jpg);
+	}																															
+/*pc端大屏1x 2x*/
+@media only screen and (min-width:1440px){
+	.ib-ia-image,
+	.ib-ie-image,
+	.ib-ib-image,
+	.ib-iws-image {
+		background-size:cover;
+		}
+	}
+	
+/*PC端 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 1.5dppx),
+	   only screen and (min-resolution: 144dpi){
+		   .ib-ip-image {
+			   background-image:url(../images/ipad/large_2x/ipadpro_large_2x.png);
+			   }
+		   .ib-fog-image {
+			   background-image:url(../images/mac/large-2x/gift_banner_large_2x.jpg);
+			   }
+			.ib-ap-image {
+				background-image:url(../images/ipad/large_2x/pencil_large_2x.png);
+				}
+			.ib-sk-image {
+				background-image:url(../images/ipad/large_2x/keyboard_large_2x.png);
+				}
+			.ib-imini4-image {
+				background-image:url(../images/ipad/large_2x/ipadmini_large_2x.jpg);
+				}
+			.ib-iair2-image {
+				background-image:url(../images/ipad/large_2x/ipadair_large_2x.jpg);
+				}
+			.ib-be-article-image {
+				background-image:url(../images/ipad/large_2x/ios_icon_large_2x.png);
+				}
+			.ib-be-image {
+				background-image:url(../images/ipad/large_2x/ios_large_2x.png);
+				}
+			.ib-imodels-image {
+				background-image:url(../images/ipad/large_2x/compare_large_2x.png);
+				}
+			.ib-store-image {
+				background-image:url(../images/mac/large-2x/icon_pickup_large_2x.png);
+				}
+			.ib-free-image {
+				background-image:url(../images/mac/large-2x/icon_shipping_large_2x.png);
+				}
+			.ib-ia-image {
+				background-image:url(../images/ipad/large_2x/accessories_large_2x.jpg);
+				}
+			.ib-ie-image {
+				background-image:url(../images/ipad/large_2x/education_large_2x.jpg);
+				}
+			.ib-ib-image {
+				background-image:url(../images/ipad/large_2x/business_large_2x.jpg);
+				}
+			.ib-iws-image {
+				background-image:url(../images/ipad/large_2x/workshop_large_2x.jpg);
+				}												      
+		   }
+
+/*m移动端 ipad 1x 2x*/
+@media only screen and (max-width:1068px){
+	.ipad-body h2 {
+		font-size:76px;
+		}
+	.ipad-body h2.size52 {
+		font-size:42px;
+		}	
+	.ipad-body h3 {
+		font-size:32px;
+		}
+	.ib-paragraph {
+		margin-top:16px;
+		}	
+	.ib-ipad-pro {
+		padding-top:50px;
+		padding-bottom:50px;
+		}	
+	.ib-ip-image {
+		height:526px;
+		background-image:url(../images/ipad/medium/ipadpro_medium.png);
+		background-size:1054px 526px;
+		}
+	.ib-fog-image {
+		height:450px;
+		background-image:url(../images/mac/middle/gift_banner_medium.jpg);
+		background-size:1662px 630px;
+		}
+	.ib-fog-article .ib-paragraph {
+		padding:0 50px;
+		}
+	.ib-apple-pencil {
+		padding-top:50px;
+		padding-bottom:50px;
+		}
+	.ib-apple-pencil h2,
+	.ib-smart-keyboard h2 {
+		font-size:42px;
+		}
+	.ib-apple-pencil h3,
+	.ib-smart-keyboard h3 {
+		font-size:24px;
+		}
+	.ib-ap-article {
+		left:50px;
+		}			
+	.ib-ap-image {
+		left:-306px;
+		width:839px;
+		height:335px;
+		background-image:url(../images/ipad/medium/pencil_medium.png);
+		background-size:839px 335px;
+		}
+	.ib-sk-article {
+		top:100px;
+		right:20px;
+		}	
+	.ib-sk-image {
+		width:774px;
+		height:507px;
+		margin-left:-80px;
+		background-image:url(../images/ipad/medium/keyboard_medium.png);
+		background-size:774px 507px;
+		}
+	.ib-imini4-image {
+		height:718px;
+		background-image:url(../images/ipad/medium/ipadmini_medium.jpg);
+		background-size:863px 718px;
+		}
+	.ib-iair2-article {
+		top:20px;
+		left:344px;
+		}	
+	.ib-iair2-image {
+		width:784px;
+		height:507px;
+		margin-left:-554px;
+		background-image:url(../images/ipad/medium/ipadair_medium.jpg);
+		background-size:784px 507px;
+		}
+	.ib-be-article-image {
+		height:75px;
+		background-image:url(../images/ipad/medium/ios_icon_medium.png);
+		background-size:75px 75px;
+		}
+	.ib-be-article .ib-paragraph {
+		margin-top:0px;
+		line-height:1.4;
+		}
+	.ib-be-image {
+		height:545px;
+		background-image:url(../images/ipad/medium/ios_medium.png);
+		background-size:814px 545px;
+		}
+	.ib-imodels-image {
+		height:185px;
+		margin-top:60px;
+		background-image:url(../images/ipad/medium/compare_medium.png);
+		background-size:890px 185px;
+		}
+	.ib-store-image,
+	.ib-free-image {
+		height:34px;
+		background-size:30px 34px;
+		}
+	.ib-store-image {
+		background-image:url(../images/mac/middle/icon_pickup_medium.png);
+		}
+	.ib-free-image {
+		background-image:url(../images/mac/middle/icon_shipping_medium.png);
+		}
+	.ib-store-free h2 {
+		font-size:24px;
+		}
+	.ib-store-free .ib-paragraph {
+		margin-top:0;
+		}
+	.ib-store-free a.size24 {
+		font-size:18px;
+		}
+	.ib-ia-image,
+	.ib-ie-image,
+	.ib-ib-image,
+	.ib-iws-image {
+		background-size:1068px 600px;
+		}
+	.ib-ia-image {
+		background-image:url(../images/ipad/medium/accessories_medium.jpg);
+		}
+	.ib-ie-image {
+		background-image:url(../images/ipad/medium/education_medium.jpg);
+		}
+	.ib-ib-image {
+		background-image:url(../images/ipad/medium/business_medium.jpg);
+		}
+	.ib-iws-image {
+		background-image:url(../images/ipad/medium/workshop_medium.jpg);
+		}
+	.ib-ia-article,
+	.ib-ie-article,
+	.ib-ib-article,
+	.ib-iws-article {
+		width:480px;
+		margin-left:-240px;
+		}																								
+	}
+
+/*m移动端 ipad 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), 
+       only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	   only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+		   .ib-ip-image {
+			   background-image:url(../images/ipad/medium_2x/ipadpro_medium_2x.png);
+			   }
+			.ib-fog-image {
+				background-image:url(../images/mac/middle-2x/gift_banner_medium_2x.jpg);
+				} 
+			.ib-ap-image {
+				background-image:url(../images/ipad/medium_2x/pencil_medium_2x.png);
+				}
+			.ib-sk-image {
+				background-image:url(../images/ipad/medium_2x/keyboard_medium_2x.png);
+				}
+			.ib-imini4-image {
+				background-image:url(../images/ipad/medium_2x/ipadmini_medium_2x.jpg);
+				}
+			.ib-iair2-image {
+				background-image:url(../images/ipad/medium_2x/ipadair_medium_2x.jpg);
+				}
+			.ib-be-article-image {
+				background-image:url(../images/ipad/medium_2x/ios_icon_medium_2x.png);
+				}
+			.ib-be-image {
+				background-image:url(../images/ipad/medium_2x/ios_medium_2x.png);
+				}
+			.ib-imodels-image {
+				background-image:url(../images/ipad/medium_2x/compare_medium_2x.png);
+				}
+			.ib-store-image {
+				background-image:url(../images/mac/middle-2x/icon_pickup_medium_2x.png);
+				}
+			.ib-free-image {
+				background-image:url(../images/mac/middle-2x/icon_shipping_medium_2x.png);
+				}
+			.ib-ia-image {
+				background-image:url(../images/ipad/medium_2x/accessories_medium_2x.jpg);
+				}
+			.ib-ie-image {
+				background-image:url(../images/ipad/medium_2x/education_medium_2x.jpg);
+				}
+			.ib-ib-image {
+				background-image:url(../images/ipad/medium_2x/business_medium_2x.jpg);
+				}
+			.ib-iws-image {
+				background-image:url(../images/ipad/medium_2x/workshop_medium_2x.jpg);
+				}													  
+		   }
+
+/*x移动端 2x 1x */		   
+@media only screen and (max-width:735px) {
+	.ipad-body h2 {
+		font-size:42px;
+		}
+	.ipad-body h2.size52 {
+		font-size:32px;
+		}	
+	.ipad-body h3 {
+		font-size:24px;
+		}
+	.ipad-body a.size24 {
+		font-size:14px;
+		}
+	.ipad-body a {
+		font-size:18px;
+		}	
+	.ib-link-box {
+		padding-top:10px;
+		}
+	.ib-ip-image {
+		height:475px;
+		background-image:url(../images/ipad/small/ipadpro_small.png);
+		background-size:736px 475px;
+		}
+	.ib-from-one-gift {
+		padding-top:280px;
+		background-color:#e9e9e9;
+		}	
+	.ib-fog-article {
+		left:0;
+		margin-left:auto;
+		width:auto;
+		padding:0 20px;
+		}
+	.ib-fog-article .ib-paragraph {
+		padding:0;
+		}
+	.ib-fog-image {
+		height:462px;
+		background-image:url(../images/mac/small/gift_banner_small.jpg);
+		background-size:736px 462px;
+		}
+	.ib-ap-article {
+		top:auto;
+		left:auto;
+		}
+	.ib-ap-image {
+		left:auto;
+		width:auto;
+		height:269px;
+		background-image:url(../images/ipad/small/pencil_small.png);
+		background-size:736px 269px;
+		background-position:40% top;
+		}
+	.ib-sk-image {
+		width:561px;
+		height:369px;
+		margin-left:-165px;
+		background-image:url(../images/ipad/small/keyboard_small.png);
+		background-size:561px 369px;
+		}
+	.ib-sk-article {
+		top:12px;
+		}
+	.ib-smart-keyboard {
+		padding-bottom:70px;
+		}
+	.ib-ipad-mini4 {
+		padding-top:70px;
+		}
+	.ib-imini4-image {
+		height:345px;
+		background-image:url(../images/ipad/small/ipadmini_small.jpg);
+		background-size:415px 345px;
+		}
+	.ib-ipad-air2 {
+		padding-bottom:70px;
+		}
+	.ib-iair2-article {
+		top:auto;
+		left:auto;
+		}	
+	.ib-iair2-image {
+		width:auto;
+		margin-left:0;
+		height:303px;
+		background-image:url(../images/ipad/small/ipadair_small.jpg);
+		background-size:467px 303px;
+		}
+	.ib-iair2-image-box {
+		margin-top:30px;
+		}
+	.ib-better-experience {
+		padding-top:70px;
+		}
+	.ib-be-article {
+		padding:0 20px;
+		}
+	.ib-be-article .ib-paragraph {
+		width:auto;
+		text-align:justify;
+		}		
+	.ib-be-article-image {
+		height:60px;
+		background-image:url(../images/ipad/small/ios_icon_small.png);
+		background-size:60px 60px;
+		}
+	.ib-be-image {
+		height:267px;
+		background-image:url(../images/ipad/small/ios_small.png);
+		background-size:443px; 267px;
+		}
+	.ib-ipad-models {
+		padding-top:70px;
+		padding-bottom:0;
+		}
+	.ib-imodels-image {
+		height:323px;
+		margin-top:40px;
+		background-image:url(../images/ipad/small/compare_small.png);
+		background-size:225px 323px;
+		}
+	.ib-store-free {
+		padding-top:70px;
+		padding-bottom:70px;
+		}
+	.ib-free {
+		margin-top:40px;
+		}	
+	.ib-store h2,
+	.ib-free h2 {
+		font-size:24px;
+		}
+	.ib-store,
+	.ib-free {
+		padding:0 20px;
+		}
+	.ib-ia-image {
+		height:360px;
+		background-image:url(../images/ipad/small/accessories_small.jpg);
+		background-size:736px 500px;
+		background-position:center center;
+		}
+	.ib-ie-image,
+	.ib-ib-image,
+	.ib-iws-image {
+		height:360px;
+		background-size:736px 360px;
+		}
+	.ib-ie-image {
+		background-image:url(../images/ipad/small/education_small.jpg);
+		}
+	.ib-ib-image {
+		background-image:url(../images/ipad/small/business_small.jpg);
+		}
+	.ib-iws-image {
+		background-image:url(../images/ipad/small/workshop_small.jpg);
+		}
+	.ib-ia-article,
+	.ib-ie-article,
+	.ib-ib-article,
+	.ib-iws-article {
+		left:auto;
+		width:auto;
+		margin-left:auto;
+		padding:0 20px;
+		}																																
+	}
+
+/*x移动端 2x retina屏*/	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px),
+       only screen and (max-width: 735px) and (min-resolution: 144dpi), 
+	   only screen and (-webkit-min-device-pixel-ratio: 144) and (max-width: 735px), 
+	   only screen and (max-width: 735px) and (min-resolution: 144dppx){
+		   
+		   .ib-ip-image {
+			   background-image:url(../images/ipad/small_2x/ipadpro_small_2x.png);
+			   }
+			.ib-fog-image {
+				background-image:url(../images/mac/small-2x/gift_banner_small_2x.jpg);
+				}
+			.ib-ap-image {
+				background-image:url(../images/ipad/small_2x/pencil_small_2x.png);
+				}
+			.ib-sk-image {
+				background-image:url(../images/ipad/small_2x/keyboard_small_2x.png);
+				}
+			.ib-imini4-image {
+				background-image:url(../images/ipad/small_2x/ipadmini_small_2x.jpg);
+				}
+			.ib-iair2-image {
+				background-image:url(../images/ipad/small_2x/ipadair_small_2x.jpg);
+				}
+			.ib-be-article-image {
+				background-image:url(../images/ipad/small_2x/ios_icon_small_2x.png);
+				}
+			.ib-be-image {
+				background-image:url(../images/ipad/small_2x/ios_small_2x.png);
+				}
+			.ib-models-image {
+				background-image:url(../images/ipad/small_2x/compare_small_2x.png);
+				}
+			.ib-ia-image {
+				background-image:url(../images/ipad/small_2x/accessories_small_2x.jpg);
+				}
+			.ib-ie-image {
+				background-image:url(../images/ipad/small_2x/education_small_2x.jpg);
+				}
+			.ib-ib-image {
+				background-image:url(../images/ipad/small_2x/business_small_2x.jpg);
+				}
+			.ib-iws-image {
+				background-image:url(../images/ipad/small_2x/workshop_small_2x.jpg);
+				}											   
+		   }

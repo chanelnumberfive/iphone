@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+	 height="54px" viewBox="0 0 30 54" enable-background="new 0 0 30 54" xml:space="preserve">
+<g id="Dark">
+</g>
+<g id="Light">
+	<g id="Mac">
+		<path id="OS_X_Yosemite" fill="#333333" d="M15,24C6.729,24,0,30.729,0,39c0,8.271,6.729,15,15,15c8.271,0,15-6.729,15-15
+			C30,30.729,23.271,24,15,24z M15,53.375C7.073,53.375,0.625,46.926,0.625,39S7.073,24.625,15,24.625S29.375,31.073,29.375,39
+			S22.927,53.375,15,53.375z M22.097,30.001h-1.494l-5.595,8.011l-5.597-8.011H7.919l6.343,8.882l-6.508,9.115h1.494l5.76-8.244
+			l5.759,8.244h1.494l-6.505-9.115L22.097,30.001z"/>
+	</g>
+</g>
+</svg>

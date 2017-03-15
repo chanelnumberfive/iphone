@@ -1,0 +1,256 @@
+@charset "utf-8";
+/* CSS Document */
+.banner {
+		position:relative;
+		border-bottom:2px solid #fff;
+		height:78%;
+		min-height:650px;
+		color:#fff;
+		overflow:hidden;
+	}
+.banner button {
+	    display:none;
+	}		
+.banner section {
+	    position:absolute;
+		left:0;
+		z-index:1;
+		width:100%;
+		height:100%;
+		text-align:center;
+		background-color:#fff;
+		z-index:1;
+	}
+.blz-slide section.old {
+	  z-index:2;
+	  }	  
+  .blz-slide section.active {
+	  z-index:3;
+	  }		
+.banner-four {
+		background-image:url(../images/apple/home_hero_post_september_large.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-color:#fff; 
+		background-position:center center;
+	}
+.banner-four a {
+	    color:#fff;
+	}	
+.banner-three {
+	    color:#333;
+		background-image:url(../images/apple/home_evergreen_hero_iphone_medium.jpg);
+		background-repeat:no-repeat;
+		background-position:center top;
+	}
+.banner-two {
+	    color:#333;
+		background-image:url(../images/apple/home_hero_evergreen_ipad_medium.jpg);
+		background-repeat:no-repeat;
+		background-position:center 240px;
+	}
+.banner-one-box {
+	    position:relative;
+		height:100%;
+		width:100%;
+		max-width:1100px;
+		margin:0 auto;
+		white-space:nowrap;
+		background-image:url(../images/apple/home_hero_watch_medium.jpg);
+		background-repeat:no-repeat;
+		background-position:left -400px;
+	}			
+.bf-title-box,
+.bt-title-box {
+	    position:absolute;
+		top:50%;
+		left:50%;
+		-webkit-transform:translateX(-50%);
+		transform:translateX(-50%);
+		color:#fff;
+		white-space:nowrap;
+		cursor:default;
+	}
+.bn-title-box {
+	    position:absolute;
+		right:20%;
+		top:50%;
+		color:#333;
+		-webkit-transform:translateY(-50%);
+		transform:translateY(-50%);
+	}	
+.btw-title-box {
+	    position:relative;
+		top:4.2em;
+	}	
+.bt-title-box {
+	    top:420px;
+		color:#333;
+	}			
+.bf-title {
+	    font-size:50px;
+	}
+.bt-title {
+	    font-size:30px;
+		line-height:60px;
+	}	
+.b-title-link {
+	    font-size:1.25em;
+		color:#08c;
+	}
+.b-title-link.first {
+	    padding-right:1em;
+	}		
+.b-icon-box {
+	    position:absolute;
+		bottom:40px;
+		z-index:40;
+		width:100%;
+		text-align:center;
+	}
+.b-icon-box li {
+	    display:inline-block;
+		height:.5em;
+		width:.5em;
+		margin-right:.5em;
+		border-radius:50%;
+		background-color:#999;
+	}
+.b-icon-box li.active {
+		background-color:#08c;
+	}
+.banner a {
+	    transition:none;
+	}
+.promos {
+	    font-size:0;
+	}	
+.promos li {
+	    box-sizing:border-box;
+		border-right:2px solid #fff;
+		display:inline-block;
+		width:25%;
+		height:200px;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}	
+.promos a {
+	    display:inline-block;
+		width:100%;
+		height:100%;
+	}
+.promos li:first-child {
+	    background-image:url(../images/apple/promo_applepencil_large.jpg);
+	}
+.promos li:nth-child(2) {
+	    background-image:url(../images/apple/promo_el_capitan_large.jpg);
+	}
+.promos li:nth-child(3) {
+	    background-image:url(../images/apple/promo_imac_retina_large.jpg);
+	}
+.promos li:last-child {
+	    border-right:none;
+	    background-image:url(../images/apple/promo_ios9_large.jpg);
+	}
+.banner-five {
+	    padding:20px 0;
+		text-align:center;
+		font:-size:0px;
+	}
+.banner-five span {
+	    color:#08c;
+	}	
+.banner-five li {
+	    display:inline-block;
+		vertical-align:middle;
+	}
+.banner-five li:first-child {
+		height:44px;
+		width:179px;
+		font-size:0;
+	    background-image:url(../images/apple/redcross_banner_large.jpg);
+		background-repeat:no-repeat;
+	}
+.banner-five li:nth-child(2) {
+	    height:20px;
+		width:0;
+		border-left:1px solid #dadada;
+		border-right:1px solid #f2f2f2;
+		margin:0 20px;
+	}	
+.banner-five a {
+	   display:block;
+	   height:44px;
+	   line-height:44px;
+	   font-size:0.8125em;
+	   vertical-align:middle;
+	}
+@media only screen and (max-width:768px) {
+	    .banner {
+			height:50%;
+			min-height:24em;
+			}
+		.bf-title {
+			font-size:1.6em;
+			}
+		.bt-title {
+			font-size:1em;
+			line-height:1.8em;
+			}
+		.b-title-link {
+			font-size:0.8em;
+			}		
+		.banner-three {
+			background-size:auto 60%;
+			}
+		.banner-two {
+			background-size:130% auto;
+			background-position:center 10em;
+			}	
+		.bt-title-box {
+			top:60%;
+			}
+		.banner-one-box {
+			text-align:center;
+			background-image:url(../images/apple/home_hero_evergreen_watch_small_2x.jpg);
+			background-size:120% auto;
+			background-position:center 10em;
+			}
+		.bn-title-box {
+			right:50%;
+			top:4em;
+			-webkit-transform:translateX(50%);
+			transform:translateX(50%);
+			}
+		.promos li {
+			background-size:auto 200px;
+			border-bottom:2px solid #fff;
+			}	
+		.promos li:first-child {
+			background-image:url(../images/apple/promo_applepencil_small_2x.jpg);
+			}
+		.promos li:nth-child(2) {
+			background-image:url(../images/apple/promo_el_capitan_small_2x.jpg);
+			border-right:0;
+			}
+		.promos li:nth-child(3) {
+			background-image:url(../images/apple/promo_imac_retina_small_2x.jpg);
+			}
+		.promos li:last-child {
+			background-image:url(../images/apple/promo_ipadmini4_small_2x.png);
+			}
+		.promos li {
+			width:50%;
+			}
+		.banner-five li:nth-child(2) {
+			display:none;
+			}
+		.banner-five li:first-child {
+			background-image:url(../images/apple/redcross_banner_large_2x.jpg);
+			background-size:179px 44px;
+			}													
+	    .promos li {
+			width:100%;
+			border-right:0;
+			}	
+	}														

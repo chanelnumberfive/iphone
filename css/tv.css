@@ -1,0 +1,593 @@
+@charset "utf-8";
+/* CSS Document */
+.only-xs {
+		display:none;
+		}
+.tv-body {
+	padding-top:32px;
+	text-align:center;
+	overflow:hidden;
+	}
+.tv-body section {
+	padding-top:90px;
+	padding-bottom:90px;
+	}	
+.tv-body a {
+	color:#08c;
+	}	
+.tv-headline-normal {
+	font-size:64px;
+	}
+.tv-headline-small {
+	font-size:52px;
+	}	
+.tv-paragraph-normal {
+	margin-top:12px;
+	font-size:24px;
+	line-height:1.35417;
+	}
+.tv-paragraph-small {
+	margin-top:12px;
+	font-size:18px;
+	line-height:1.35417;
+	}			
+figure {
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+.tv {
+	padding-bottom:90px;
+	background-color:#eee;
+	}
+.tv .tv-headline-normal {
+	margin-top:32px;
+	}
+.tv .tv-paragraph-normal {
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	}			
+.tv-image {
+	height:578px;
+	background-image:url(../images/tv/large/hero_large.jpg);
+	background-size:1620px 578px;
+	}
+.tv-headline {
+	height:100px;
+	margin-top:24px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background-image:url(../images/tv/large/tv_logo_large.png);
+	background-repeat:no-repeat;
+	background-size:209px 100px;
+	background-position:center top;
+	}
+.tv-apps,
+.tv-games {
+	background-color:#fafafa;
+	}	
+.tv-apps-article-1 {
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.tv-apps-article-2 {
+	position:relative;
+	margin-top:90px;
+	}	
+.tv-apps-article-2:after {
+	content:" ";
+	display:table;
+	clear:both;
+	}	
+.tv-apps-art2-handle {
+	float:left;
+	position:relative;
+	width:570px;
+	padding:70px;
+	background-color:#fff;
+	border-radius:4px;
+	text-align:left;
+	box-shadow:0px 0px 1px rgba(0,0,0,0.2);
+	}
+.tv-apps-art2-handle[data-blz-hardtoleave] {
+	-webkit-transition:-webkit-transform 1.5s cubic-bezier(0.50,0.50,0.50,0.50);
+	transition:transform 1.5s cubic-bezier(0.50,0.50,0.50,0.50);
+	}
+.tv-apps-art2-handle .sub-headline {
+	display:block;
+	font-size:24px;
+	line-height:2;
+	color:#666;
+	}	
+.tv-apps-art2-releases {
+	position:absolute;
+	top:50%;
+	right:0;
+	transform:translateY(-50%);
+	float:right;
+	width:294px;
+	padding:40px 30px;
+	color:#fff;
+	background-color:#002683;
+	border-radius:4px;
+	}
+.tv-apps-art2-handle p {
+	padding-right:40px;
+	}
+.tv-apps-art2-rele-image {
+	width:294px;
+	height:45px;
+	margin-left:-30px;
+	margin-top:58px;
+	background-image:url(../images/tv/large/blue_wave_large.png);
+	background-size:294px 45px;
+	}
+.tv-apps-image {
+	position:relative;
+	width:auto;
+	height:678px;
+	}	
+.tv-apps-image::after {
+	content:" ";
+	display:block;
+	width:6600px;
+	height:678px;
+	background-repeat:repeat-x;
+	background-image:url(../images/tv/large/show_grid_large.jpg);
+	background-size:3300px 678px;
+	background-position:0% 0%;
+	-webkit-animation-duration:160s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-name:tvAppsImageMovie;
+	animation-duration:160s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-name:tvAppsImageMovie;
+	}
+@keyframes tvAppsImageMovie {
+	0% { -webkit-transform:translateX(0);transform:translateX(0);}
+	100% { -webkit-transform:translateX(-50%);transform:translateX(-50%);}
+	}	 		
+.tv-body .tv-games {
+	padding-top:0;
+	padding-bottom:0;
+	}
+.tv-games .container {
+	margin-top:0;
+	}
+.tv-games .tv-apps-art2-handle {
+	float:right;
+	}
+.tv-games .tv-apps-art2-releases {
+	left:0;
+	}
+.tv-games .tv-headline-small {
+	padding-right:40px;
+	}
+.tv-game-image {
+	padding-bottom:56.23656%;
+	background-image:url(../images/tv/large/apps_and_games_large.jpg);
+	background-position:center center;
+	background-size:1860px 1046px;
+	}
+.tv-body .tv-love {
+	padding-bottom:0;
+	background-color:#f2f2f2;
+	}
+.tv-love-image {
+	position:relative;
+	padding-bottom:56.23656%;
+	background-image:url(../images/tv/large/interface_large.jpg);
+	background-size:cover;
+	}
+.tv-body .tv-ask-more {
+	padding-bottom:0;
+	background-color:#ece9e5;
+	}
+.tv-ask-more .container {
+	margin-top:0;
+	}
+.tv-ask-more .tv-apps-art2-handle {
+	float:right;
+	}
+.tv-askm-cont-image {
+	float:left;
+	margin-left:50px;
+	width:235px;
+	height:641px;
+	background-image:url(../images/tv/large/siri_remote_large.png);
+	background-size:235px 641px;
+	background-color:transparent;
+	}
+.tv-askm-image {
+	position:relative;
+	margin-top:60px;
+	padding-bottom:56.23656%;
+	background-image:url(../images/tv/large/siri_question_empire_large.jpg);
+	background-size:cover;
+	}
+.tv-new-image {
+	height:533px;
+	margin-top:30px;
+	background-image:url(../images/tv/large/buy_tv_large.jpg);
+	background-size:599px 533px;
+	}
+.tv-new-arti-image {
+	display:inline-block;
+	width:85px;
+	height:41px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	background-image:url(../images/tv/large/buy_tv_logo_large.png);
+	background-size:85px 41px;
+	}
+.tv-new .tv-new-arti-buy {
+	color:#fff;
+	}
+.tv-new-article {
+	width:524px;
+	margin-left:auto;
+	margin-right:auto;
+	}																												
+/*pc端大屏1x 2x*/
+@media only screen and (min-width:1440px){
+	
+	.tv-game-image {
+		background-size:cover;
+		}
+	
+	}
+	
+/*PC端 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       only screen and (min-resolution: 1.5dppx),
+	   only screen and (min-resolution: 144dpi){
+		   
+		.tv-image {
+			   background-image:url(../images/tv/large_2x/hero_large_2x.jpg);
+			   }
+		.tv-headline {
+			background-image:url(../images/tv/large_2x/tv_logo_large_2x.png);
+			}
+		.tv-apps-art2-rele-image {
+			background-image:url(../images/tv/large_2x/blue_wave_large_2x.png);
+			}
+		.tv-apps-image::after {
+			background-image:url(../images/tv/large_2x/show_grid_large_2x.jpg);
+			}
+		.tv-game-image {
+			background-image:url(../images/tv/large_2x/apps_and_games_large_2x.jpg);
+			}
+		.tv-love-image {
+			background-image:url(../images/tv/large_2x/interface_large_2x.jpg);
+			}
+		.tv-ask-more .tv-apps-art2-releases {
+			background-image:url(../images/tv/large_2x/siri_remote_large_2x.png);
+			}
+		.tv-askm-cont-image {
+			background-image:url(../images/tv/large_2x/siri_remote_large_2x.png);
+			}	
+		.tv-askm-image {
+			background-image:url(../images/tv/large_2x/siri_question_empire_large_2x.jpg);
+			}
+		.tv-new-image {
+			background-image:url(../images/tv/large_2x/buy_tv_large_2x.jpg);
+			}
+		.tv-new-arti-image {
+			background-image:url(../images/tv/large_2x/tv_logo_large_2x.png);
+			}	
+										      
+		   }
+
+/*m移动端 ipad 1x 2x*/
+@media only screen and (max-width:1068px){
+	
+	.tv-apps-image::after {
+		/*background:none;*/
+		-webkit-animation:none 0 ease 0 1 normal;
+		animation:none 0 ease 0 1 normal;
+		}
+	.tv-body section {
+		padding-top:70px;
+		padding-bottom:70px;
+		}
+	.tv-headline-normal {
+		font-size:52px;
+		}
+	.tv-headline-small {
+		font-size:42px;
+		}	
+	.tv-body {
+		padding-top:44px;
+		}
+	.tv {
+		padding-bottom:70px;
+		}	
+	.tv .tv-paragraph-normal {
+		width:auto;
+		padding:0 40px;
+		}	
+	.tv-image {
+		height:440px;
+		background-image:url(../images/tv/medium/hero_medium.jpg);
+		background-size:1067px 440px;
+		}
+	.tv-apps-article-1 {
+		width:auto;
+		padding:0 40px;
+		}
+	.tv-apps-art2-handle {
+		width:404px;
+		padding:60px;
+		}
+	.tv-apps-art2-handle p {
+		padding-right:0;
+		}	
+	.tv-apps-art2-releases {
+		width:220px;
+		right:30px;
+		}
+	.tv-apps-art2-rele-image {
+		width:220px;
+		height:31px;
+		background-image:url(../images/tv/medium/blue_wave_medium.png);
+		background-size:192px 31px;
+		}
+	.tv-apps-article-2 {
+		padding:0 30px;
+		}
+	.tv-apps-image {
+		width:5232px;
+		height:539px;
+		background-image:url(../images/tv/medium/show_grid_medium.jpg);
+		background-size:2616px 539px;
+		}	
+	.tv-games .tv-apps-art2-releases {
+		left:30px;
+		}
+	.tv-game-image {
+		background-image:url(../images/tv/medium/apps_and_games_medium.jpg);
+		background-size:cover;
+		}
+	.tv-love-image {
+		background-image:url(../images/tv/medium/interface_medium.jpg);
+		}
+	.tv-askm-cont-image {
+		position:absolute;
+		top:50%;
+		transform:translateY(-50%);
+		width:205px;
+		height:558px;
+		margin-left:30px;
+		background-image:url(../images/tv/medium/siri_remote_medium.png);
+		background-size:205px 558px;
+		}
+	.tv-askm-image {
+		background-image:url(../images/tv/medium/siri_question_empire_medium.jpg);
+		}
+	.tv-new-article {
+		width:480px;
+		}
+	.tv-new-image {
+		height:452px;
+		background-image:url(../images/tv/medium/buy_tv_medium.jpg);
+		background-size:508px 452px;
+		}													
+	
+	}
+
+/*m移动端 ipad 2x retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1068px), 
+       only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	   only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+		   
+		.tv-image {
+			   background-image:url(../images/tv/medium_2x/hero_medium_2x.jpg);
+			   }
+		.tv-headline {
+			background-image:url(../images/tv/large_2x/tv_logo_large_2x.png);
+			}
+		.tv-apps-art2-rele-image {
+			background-image:url(../images/tv/medium_2x/blue_wave_medium_2x.png);
+			}
+		.tv-apps-image {
+			background-image:url(../images/tv/medium_2x/show_grid_medium_2x.jpg);
+			}
+		.tv-game-image {
+			background-image:url(../images/tv/medium_2x/apps_and_games_medium_2x.jpg);
+			}
+		.tv-love-image {
+			background-image:url(../images/tv/medium_2x/interface_medium_2x.jpg);
+			}
+		.tv-ask-more .tv-apps-art2-releases {
+			background-image:url(../images/tv/medium_2x/siri_remote_medium_2x.png);
+			}
+		.tv-askm-image {
+			background-image:url(../images/tv/medium_2x/siri_question_empire_medium_2x.jpg);
+			}
+		.tv-askm-cont-image {
+			background-image:url(../images/tv/medium_2x/siri_remote_medium_2x.png);
+			}	
+		.tv-new-image {
+			background-image:url(../images/tv/medium_2x/buy_tv_medium_2x.jpg);
+			}
+		   
+		   }
+
+/*x移动端 2x 1x */		   
+@media only screen and (max-width:735px) {
+	
+	.only-lg {
+		display:none;
+		}
+	.only-xm {
+		display:block;
+		}	
+	.tv-body section {
+		padding-top:50px;
+		padding-bottom:50px;
+		}
+	.tv-headline-normal {
+		font-size:36px;
+		padding:0 20px;
+		}
+	.tv-headline-small {
+		font-size:32px;
+		}	
+	.tv-paragraph-normal {
+		font-size:20px;
+		}	
+	.tv-body {
+		padding-top:41px;
+		}
+	.tv-image {
+		height:203px;
+		background-image:url(../images/tv/small/hero_small.jpg);
+		background-size:404px 203px;
+		}
+	.tv-headline {
+		height:68px;
+		margin-top:0;
+		background-image:url(../images/tv/small/tv_logo_small.png);
+		background-size:143px 68px;
+		}	
+	.tv {
+		padding-bottom:50px;
+		background-color:#f2f2f2;
+		}
+	.tv a {
+		display:block;
+		text-align:center;
+		}
+	.tv a span {
+		padding-right:0;
+		}
+	.tv .tv-paragraph-normal {
+		text-align:justify;
+		padding:0 20px;
+		}
+	.tv-apps-article-1 {
+		padding:0 20px;
+		}
+	.tv-apps-article-1 p {
+		text-align:justify;
+		}	
+	.tv-apps-article-1 h2 {
+		padding:0;
+		}
+	.tv-apps-art2-handle {
+		float:none;
+		width:auto;
+		padding:40px 20px;
+		box-shadow:none;
+		text-align:center;
+		}
+	.tv-apps-art2-handle p:nth-child(2) {
+		text-align:justify;
+		}	
+	.tv-apps-article-2 {
+		padding:0 0 40px 0;
+		margin-top:50px;
+		background-color:#fff;
+		}
+	.tv-apps-art2-releases {
+		position:static;
+		float:none;
+		width:254px;
+		padding:20px;
+		margin-left:auto;
+		margin-right:auto;
+		transform:none;
+		}
+	.tv-apps-art2-rele-image {
+		margin:0;
+		margin-top:20px;
+		width:100%;
+		background-image:url(../images/tv/small/blue_wave_small.png);
+		background-size:100% auto;
+		}
+	.tv-apps-image {
+		width:auto;
+		height:444px;
+		background-image:url(../images/tv/small/show_grid_small.jpg);
+		background-size:2151px 444px;
+		background-position:center center;
+		}
+	.tv-games .tv-headline-small {
+		padding-right:0;
+		}
+	.tv-games .tv-apps-article-2 {
+		padding-bottom:0;
+		}	
+	.tv-apps-art2-handle .tv-headline-small {
+		margin:0 -4px;
+		}
+	.tv-body .tv-love {
+		padding-bottom:0;
+		}
+	.tv-body .tv-ask-more {
+		padding-top:0;
+		}
+	.tv-ask-more .tv-apps-article-2 {
+		padding-bottom:0;
+		}
+	.tv-askm-image {
+		margin-top:0;
+		}
+	.tv-askm-cont-image {
+	    position:static;
+		float:none;
+		transform:none;
+		margin-left:0;
+		margin-top:70px;
+		width:auto;
+		height:388px;
+		background-image:url(../images/tv/small/siri_remote_small.png);
+		background-size:247px 388px;
+		}
+	.tv-new-article {
+		width:auto;
+		padding:0 20px;
+		}
+	.tv-new-image {
+		height:219px;
+		background-image:url(../images/tv/small/buy_tv_small.jpg);
+		background-size:246px 219px;
+		}																				
+	}
+/*x移动端 2x retina屏*/	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px),
+       only screen and (max-width: 735px) and (min-resolution: 144dpi), 
+	   only screen and (-webkit-min-device-pixel-ratio: 144) and (max-width: 735px), 
+	   only screen and (max-width: 735px) and (min-resolution: 144dppx){
+		   
+		.tv-image {
+			   background-image:url(../images/tv/small_2x/hero_small_2x.jpg);
+			   }
+		.tv-headline {
+			background-image:url(../images/tv/small_2x/tv_logo_small_2x.png);
+			}
+		.tv-apps-art2-rele-image {
+			background-image:url(../images/tv/small_2x/blue_wave_small_2x.png);
+			}
+		.tv-apps-image {
+			background-image:url(../images/tv/small_2x/show_grid_small_2x.jpg);
+			}
+		.tv-ask-more .tv-apps-art2-releases {
+			background-image:url(../images/tv/small_2x/siri_remote_small_2x.png);
+			}
+		.tv-askm-cont-image {
+	    background-image:url(../images/tv/small_2x/siri_remote_small_2x.png);
+		}	
+		.tv-new-arti-image {
+			background-image:url(../images/tv/small_2x/tv_logo_small_2x.png);
+			}
+		.tv-new-image {
+		background-image:url(../images/tv/small_2x/buy_tv_small_2x.jpg);
+		}	
+		   
+		   }			   			   
